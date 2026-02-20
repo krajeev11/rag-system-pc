@@ -1,0 +1,15 @@
+# Core Requirements - Install these for basic functionality
+# Install step by step to avoid freezing
+
+# Step 1: Install these first (lightweight)
+langchain>=0.1.0
+langchain-community>=0.0.20
+chromadb>=0.4.0
+numpy>=1.24.0
+
+# Step 2: Install sentence-transformers separately (this is the heavy one)
+# Run this separately: pip install sentence-transformers --no-cache-dir
+# Or use a smaller model: pip install sentence-transformers[torch] --no-cache-dir
+
+# Step 3: Web UI (optional - only if you want Gradio)
+# pip install gradio --no-cache-dir

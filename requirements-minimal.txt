@@ -1,0 +1,18 @@
+# Minimal Requirements - Install these first (lightweight)
+# These are the absolute minimum needed to run the RAG system
+
+# Core LangChain (lightweight)
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# ChromaDB (lightweight vector database)
+chromadb>=0.4.0
+
+# Basic dependencies
+numpy>=1.24.0
+
+# Note: sentence-transformers is heavy - install separately if needed
+# pip install sentence-transformers --no-cache-dir
+
+# Web UI (optional - install only if you want web interface)
+# gradio>=4.0.0
