@@ -280,6 +280,3 @@ Alternative models (better quality, slower):
 - Incremental indexing (add new documents without full rescan)
 - Document filtering and search refinement
 
-## License
-
-This is part of the 30 Days of Python learning project.
